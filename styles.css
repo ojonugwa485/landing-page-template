@@ -1,0 +1,166 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  max-width: 100%;
+}
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.TEXT {
+  margin-bottom: 20px;
+}
+
+.buttons, .web-img{
+  margin-bottom: 20px;
+}
+.gradient {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.616);
+  gap: 10px;
+  padding-left: 80px;
+}
+.gradient img {
+  margin: 5px;
+  width: Fill (966px);
+  height: Hug (64px);
+  justify-content: space-between;
+} 
+.buttons img, .web-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+  }
+  
+  .features div {
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .features img {
+    max-width: 100%;
+  }
+  
+  .Testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .copy, .Testimonialss {
+    margin-bottom: 20px;
+    gap: 80px;
+  }
+  
+  .Testimonialss img {
+    max-width: 100%;
+    height: auto;
+  }
+  .FAQs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .FAQs div {
+    text-align: center;
+  }
+  
+  .FAQs img {
+    max-width: 100%;
+  }
+  .Plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Plans div {
+    text-align: center;
+  }
+  .Plans img {
+    max-width: 100%;
+  }
+  .CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .CTA div {
+    text-align: center;
+  }
+  
+  .CTA img {
+    max-width: 100%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .footer img {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 480px){
+    .header {
+      height: auto;
+      padding: 10px;
+    }
+    .features {
+      flex-direction: row;
+    }
+  .section-one {
+    padding: 10px; 
+  }
+  .Testimonials {
+    padding: 10px;
+  }
+  .FAQs {
+    padding: 10px;
+  }
+  .Plans {
+    padding: 10px; 
+  }
+  .CTA {
+    padding: 10px; 
+  }
+  .footer {
+    padding: 10px; 
+  }
+}
